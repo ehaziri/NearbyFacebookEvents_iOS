@@ -7,14 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A017B3E84EA77063E7D12D57 /* Pods_NearbyEventsFacebook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BD47A2815EBA955F910374B /* Pods_NearbyEventsFacebook.framework */; };
 		E2EF1666207FAECC00713EA5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2EF1665207FAECC00713EA5 /* AppDelegate.swift */; };
 		E2EF1668207FAECC00713EA5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2EF1667207FAECC00713EA5 /* ViewController.swift */; };
 		E2EF166B207FAECC00713EA5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2EF1669207FAECC00713EA5 /* Main.storyboard */; };
 		E2EF166D207FAEE100713EA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2EF166C207FAEE100713EA5 /* Assets.xcassets */; };
 		E2EF1670207FAEE100713EA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2EF166E207FAEE100713EA5 /* LaunchScreen.storyboard */; };
+		E2EF1678207FB0FC00713EA5 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2EF1677207FB0FC00713EA5 /* Event.swift */; };
+		E2EF167E207FB31800713EA5 /* EventCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2EF167C207FB31800713EA5 /* EventCell.swift */; };
+		E2EF167F207FB31800713EA5 /* EventCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2EF167D207FB31800713EA5 /* EventCell.xib */; };
+		E2EF1681207FB5E600713EA5 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2EF1680207FB5E600713EA5 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2BD47A2815EBA955F910374B /* Pods_NearbyEventsFacebook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NearbyEventsFacebook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FA09D4E5A8FC5F2829CA0AA /* Pods-NearbyEventsFacebook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NearbyEventsFacebook.release.xcconfig"; path = "Pods/Target Support Files/Pods-NearbyEventsFacebook/Pods-NearbyEventsFacebook.release.xcconfig"; sourceTree = "<group>"; };
+		9E5F19435B3DF15208577662 /* Pods-NearbyEventsFacebook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NearbyEventsFacebook.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NearbyEventsFacebook/Pods-NearbyEventsFacebook.debug.xcconfig"; sourceTree = "<group>"; };
 		E2EF1662207FAECC00713EA5 /* NearbyEventsFacebook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NearbyEventsFacebook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2EF1665207FAECC00713EA5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E2EF1667207FAECC00713EA5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +30,10 @@
 		E2EF166C207FAEE100713EA5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E2EF166F207FAEE100713EA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E2EF1671207FAEE100713EA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2EF1677207FB0FC00713EA5 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		E2EF167C207FB31800713EA5 /* EventCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventCell.swift; sourceTree = "<group>"; };
+		E2EF167D207FB31800713EA5 /* EventCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EventCell.xib; sourceTree = "<group>"; };
+		E2EF1680207FB5E600713EA5 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +41,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A017B3E84EA77063E7D12D57 /* Pods_NearbyEventsFacebook.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0CCAD7DA95068092A2216823 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2BD47A2815EBA955F910374B /* Pods_NearbyEventsFacebook.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2A5C2B6C759F3FF3F9CCC16C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9E5F19435B3DF15208577662 /* Pods-NearbyEventsFacebook.debug.xcconfig */,
+				2FA09D4E5A8FC5F2829CA0AA /* Pods-NearbyEventsFacebook.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		E2EF1659207FAECC00713EA5 = {
 			isa = PBXGroup;
 			children = (
 				E2EF1664207FAECC00713EA5 /* NearbyEventsFacebook */,
 				E2EF1663207FAECC00713EA5 /* Products */,
+				2A5C2B6C759F3FF3F9CCC16C /* Pods */,
+				0CCAD7DA95068092A2216823 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +86,42 @@
 		E2EF1664207FAECC00713EA5 /* NearbyEventsFacebook */ = {
 			isa = PBXGroup;
 			children = (
-				E2EF1665207FAECC00713EA5 /* AppDelegate.swift */,
-				E2EF1667207FAECC00713EA5 /* ViewController.swift */,
-				E2EF1669207FAECC00713EA5 /* Main.storyboard */,
-				E2EF166C207FAEE100713EA5 /* Assets.xcassets */,
-				E2EF166E207FAEE100713EA5 /* LaunchScreen.storyboard */,
+				E2EF167B207FB11A00713EA5 /* Controller */,
+				E2EF167A207FB11500713EA5 /* View */,
+				E2EF1679207FB10E00713EA5 /* Model */,
 				E2EF1671207FAEE100713EA5 /* Info.plist */,
 			);
 			path = NearbyEventsFacebook;
+			sourceTree = "<group>";
+		};
+		E2EF1679207FB10E00713EA5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E2EF1677207FB0FC00713EA5 /* Event.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E2EF167A207FB11500713EA5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E2EF166C207FAEE100713EA5 /* Assets.xcassets */,
+				E2EF166E207FAEE100713EA5 /* LaunchScreen.storyboard */,
+				E2EF1669207FAECC00713EA5 /* Main.storyboard */,
+				E2EF167C207FB31800713EA5 /* EventCell.swift */,
+				E2EF167D207FB31800713EA5 /* EventCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E2EF167B207FB11A00713EA5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E2EF1665207FAECC00713EA5 /* AppDelegate.swift */,
+				E2EF1667207FAECC00713EA5 /* ViewController.swift */,
+				E2EF1680207FB5E600713EA5 /* DetailViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +131,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E2EF1674207FAEE100713EA5 /* Build configuration list for PBXNativeTarget "NearbyEventsFacebook" */;
 			buildPhases = (
+				CA8D6E894CCF54F14FC6754A /* [CP] Check Pods Manifest.lock */,
 				E2EF165E207FAECC00713EA5 /* Sources */,
 				E2EF165F207FAECC00713EA5 /* Frameworks */,
 				E2EF1660207FAECC00713EA5 /* Resources */,
+				2E00BD2AC06679590908100F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -121,6 +183,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2EF167F207FB31800713EA5 /* EventCell.xib in Resources */,
 				E2EF1670207FAEE100713EA5 /* LaunchScreen.storyboard in Resources */,
 				E2EF166D207FAEE100713EA5 /* Assets.xcassets in Resources */,
 				E2EF166B207FAECC00713EA5 /* Main.storyboard in Resources */,
@@ -129,12 +192,58 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2E00BD2AC06679590908100F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-NearbyEventsFacebook/Pods-NearbyEventsFacebook-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NearbyEventsFacebook/Pods-NearbyEventsFacebook-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA8D6E894CCF54F14FC6754A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NearbyEventsFacebook-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E2EF165E207FAECC00713EA5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2EF167E207FB31800713EA5 /* EventCell.swift in Sources */,
 				E2EF1668207FAECC00713EA5 /* ViewController.swift in Sources */,
+				E2EF1681207FB5E600713EA5 /* DetailViewController.swift in Sources */,
+				E2EF1678207FB0FC00713EA5 /* Event.swift in Sources */,
 				E2EF1666207FAECC00713EA5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -277,14 +386,12 @@
 		};
 		E2EF1675207FAEE100713EA5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E5F19435B3DF15208577662 /* Pods-NearbyEventsFacebook.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = NearbyEventsFacebook/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xona.nearbyeventsfacebook.NearbyEventsFacebook;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -294,14 +401,12 @@
 		};
 		E2EF1676207FAEE100713EA5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FA09D4E5A8FC5F2829CA0AA /* Pods-NearbyEventsFacebook.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = NearbyEventsFacebook/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xona.nearbyeventsfacebook.NearbyEventsFacebook;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
